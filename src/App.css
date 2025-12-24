@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 .App {
   text-align: center;
@@ -41,7 +41,8 @@
 * {
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   /* border: 2px solid red; */
   margin: 0;
   height: 100%;
@@ -60,3 +61,24 @@ html, body {
   align-items: center;
 }
 
+@media screen and (max-width: 576px) {
+  .random-box {
+    background-image: url(/static/media/pngtree-spring-nature-flowers-forest-grass-cartoon-advertising-background-picture-image_2273366.b8f8114….jpg);
+    background-size: cover;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    max-width: 400px;
+    width: 100%;
+  }
+  body, html {
+    font-family: Dancing Script, cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: weight;
+    height: 100%;
+    margin: 0;
+    font-size: 17px;
+  }
+}
