@@ -29,7 +29,7 @@ function Random() {
         <div className="content">
           <div className="btn_random">
             <button className="rd" onClick={rdfw}>
-              RANDOM
+              Show quà
             </button>
           </div>
           <div className="sestion-kq">{result}</div>
