@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+.Container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center; 
+  /* border: 2px solid #000; */
+  width: 60%;
+  height: 40%;
+  gap: 5px;
+}
+.Container input {
+    margin-top: 10px;
+    width: 40%;
+}
+.demSoLanRenderLai {
+    border: 2px solid red;
+    width: 40%;
+    height: 100%;
+    margin-bottom: 6px;
+}
+.Container button {
+    color: red;
+    font-size: 25px;
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    width: 110px;
+    height: 80px;
+}
+.khoi-btn {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 15px;
+}

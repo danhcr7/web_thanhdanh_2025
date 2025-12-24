@@ -1,0 +1,76 @@
+.random-box {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+  width: 800px;
+  height: 65%;
+  background-image: url(image/pngtree-spring-nature-flowers-forest-grass-cartoon-advertising-background-picture-image_2273366.jpg);
+  background-size: cover;
+}
+.header {
+    display: flex;
+    border: 2px solid red;
+    flex: 2 1 0;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.content {
+    border: 2px solid red;
+    flex: 5 1 0;
+    width: 100%;
+    /* background-color: greenyellow; */
+}
+.nutbam {
+    border: 2px solid red;
+    flex: 3 1 0;
+    width: 100%;
+}
+.title {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.content {
+    display: flex;
+}
+.btn_random {
+    border: 2px solid blue;
+    flex: 3 1 0;
+}
+.sestion-kq {
+    height: 300px;
+    border: 2px solid blue;
+    flex: 7 1 0;
+    background-color: white;
+    white-space: pre-line;
+    overflow-y: auto;
+}
+.nutbam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nutbam div button {
+    width: 60px;
+    height: 60px;
+    border-radius: 4%;
+    color: yellow;
+    background-color: blue;
+    font-weight: 650;
+}
+.rd {
+    width: 90px;
+    height: 60px;
+    border-radius: 4%;
+    color: yellow;
+    background-color: blue;
+    font-weight: 650;
+}
+.btn_random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
