@@ -63,7 +63,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .random-box {
-    background-image: url(/static/media/pngtree-spring-nature-flowers-forest-grass-cartoon-advertising-background-picture-image_2273366.b8f8114….jpg);
+    background-image: url(./assets/bg-nature.jpg);
     background-size: cover;
     border: 3px solid blue;
     display: flex;

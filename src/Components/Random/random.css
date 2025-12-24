@@ -4,7 +4,7 @@
   border: 3px solid blue;
   width: 800px;
   height: 65%;
-  background-image: url(image/pngtree-spring-nature-flowers-forest-grass-cartoon-advertising-background-picture-image_2273366.jpg);
+  background-image: url(../../assets/bg-nature.jpg);
   background-size: cover;
 }
 .header {
